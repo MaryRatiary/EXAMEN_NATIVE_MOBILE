@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Explorer les pays",
+    "slug": "explorer-les-pays",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tactic.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/tactic.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.explorerpays.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tactic.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.explorerpays.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
